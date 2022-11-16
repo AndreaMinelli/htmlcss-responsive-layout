@@ -8,7 +8,7 @@
 /* Utils */
 
 .container {
-    max-width: 90%;
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -17,9 +17,24 @@
 }
 
 .btn {
+    text-decoration: none;
     background-color: rgb(151, 146, 228);
     color: white;
     padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.btn-lg {
+    padding: 10px 60px;
+}
+
+.column {
+    padding: 10px 0;
+}
+
+.card {
+    padding: 25px 20px 0;
     border-radius: 20px;
 }
 
@@ -33,6 +48,10 @@
 
 .bg-violet {
     background-color: rgb(151, 146, 228);
+}
+
+.mg-bottom-50 {
+    margin-bottom: 50px;
 }
 
 /* Generals */
@@ -80,6 +99,11 @@ ul {
     list-style-type: none;
 }
 
+h4 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
 /* Header */
 
 .nav-bar {
@@ -97,17 +121,24 @@ ul {
 
 
 /* Main */
-
 /* Section Demo Features */
 
-.column {
-    padding: 10px 0;
+#demo-features h4 {
+    color: rgb(0, 132, 253);
 }
 
-.card {
-    min-height: 150px;
-    border-radius: 20px;
+#demo-features p {
+    color: rgb(90, 110, 127);
+    font-weight: bold;
+    line-height: 1.5rem;
 }
+
+#demo-features .btn.btn-lg {
+    background-color: rgb(0, 132, 253);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
 
 /* Section Testimonials */
 
@@ -125,6 +156,10 @@ ul {
 
 
 @media screen and (min-width: 768px) {
+    .container {
+        max-width: 700px;
+    }
+
     .container-sm {
         max-width: 400px;
         margin: 0 auto;
