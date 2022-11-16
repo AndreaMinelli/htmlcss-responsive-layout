@@ -211,6 +211,14 @@ p {
 
 
 @media screen and (min-width: 768px) {
+    /* Generals */
+
+    h2 {
+        font-size: 60px;
+    }
+
+    /* Utils */
+
     .container {
         max-width: 700px;
     }
@@ -258,6 +266,14 @@ p {
 
     #planning .row {
         flex-direction: column;
+    }
+
+    #planning img {
+        margin: 0 auto;
+    }
+
+    #planning p {
+        font-size: 18px;
     }
 
     /* Section Testimonials */
