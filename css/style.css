@@ -121,6 +121,11 @@ h4 {
     padding-bottom: 30px;
 }
 
+h5 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
 p {
     margin-bottom: 30px;
     line-height: 1.5em;
@@ -194,10 +199,51 @@ p {
 
 /* Section Testimonials */
 
+#testimonials {
+    text-align: center;
+}
+
 #testimionials .row {
     display: flex;
     flex-direction: column;
 }
+
+#testimonials h2 {
+    color: rgb(155, 150, 229);
+}
+
+#testimonials h3 {
+    font-size: 30px;
+}
+
+#testimonials p {
+    font-size: 26px;
+    line-height: 2.5rem;
+}
+
+#testimonials .card {
+    color: white;
+}
+
+.circle-pics {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.circle-pics img {
+    height: 100%;
+    position: relative;
+    right: 25%;
+    max-width: none;
+}
+
+
+
+
 
 /* Section Get Started */
 
