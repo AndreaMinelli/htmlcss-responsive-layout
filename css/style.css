@@ -16,6 +16,10 @@
     display: flex;
 }
 
+.bg-lightblue {
+    background-color: rgb(181, 221, 255);
+}
+
 /* Generals */
 
 header {
@@ -26,6 +30,14 @@ header {
     top: 0;
     left: 0;
     right: 0;
+}
+
+main {
+    padding-top: 100px;
+}
+
+section {
+    padding: 50px 0;
 }
 
 /* Header */
@@ -41,9 +53,44 @@ header {
     display: none;
 }
 
+/* Main */
+
+/* Section Demo Features */
+
+.column {
+    padding: 10px 0;
+}
+
+.card {
+    min-height: 150px;
+    border-radius: 20px;
+}
 
 
-@media screen and (min-width: 768px) {}
+
+
+@media screen and (min-width: 768px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        margin: 0 -10px;
+    }
+
+    .column {
+        flex-basis: calc(100% / 3);
+        padding: 10px;
+    }
+
+    .column.col-30 {
+        flex-basis: 30%;
+    }
+
+    .column.col-70 {
+        flex-basis: 70%;
+    }
+
+}
 
 @media screen and (min-width: 1200px) {
     .container {
