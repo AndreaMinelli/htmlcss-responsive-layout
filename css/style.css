@@ -119,6 +119,12 @@ main section:nth-child(even) {
         flex-basis: 100%;
         padding: 10px;
     }
+
+    /* Section Features */
+
+    #features .column {
+        flex-basis: 50%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -141,6 +147,12 @@ main section:nth-child(even) {
 
     .planning .row {
         flex-direction: row;
+    }
+
+    /* Section Features */
+
+    #features .column {
+        flex-basis: calc(100% / 3);
     }
 
 }
