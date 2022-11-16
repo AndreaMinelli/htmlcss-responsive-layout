@@ -527,4 +527,8 @@ p {
         flex-basis: calc(100% / 3);
     }
 
+    #features h2 {
+        flex-basis: 100%;
+    }
+
 }
