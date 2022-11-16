@@ -16,6 +16,10 @@
     display: flex;
 }
 
+.flex.al-center {
+    align-items: center;
+}
+
 .btn {
     text-decoration: none;
     background-color: rgb(151, 146, 228);
