@@ -377,16 +377,28 @@ p {
         margin-right: 20px;
     }
 
-
-
-
-
-
     /* Section Features */
+
+    #features .row {
+        justify-content: center;
+    }
 
     #features .column {
         flex-basis: 50%;
     }
+
+    #features h1 {
+        font-size: 80px;
+    }
+
+    #features h3 {
+        font-size: 30px;
+    }
+
+    #features p {
+        font-size: 16px;
+    }
+
 }
 
 
