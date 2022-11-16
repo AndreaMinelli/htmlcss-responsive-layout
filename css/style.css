@@ -69,6 +69,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 main {
@@ -200,6 +201,16 @@ h4 {
 
     .column.col-70 {
         flex-basis: 70%;
+    }
+
+    /* Section Demo features */
+
+    #demo-features img {
+        width: 60%;
+    }
+
+    #demo-features .card {
+        height: 100%;
     }
 
     /* Section Planning */
