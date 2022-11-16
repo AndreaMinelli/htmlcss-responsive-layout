@@ -24,14 +24,19 @@
     text-decoration: none;
     background-color: rgb(151, 146, 228);
     color: white;
-    padding: 5px 10px;
     border-radius: 20px;
     display: inline-block;
     margin-bottom: 30px;
 }
 
-.btn-lg {
+.btn.btn-sm {
+    padding: 5px 10px;
+}
+
+.btn.btn-lg {
     padding: 10px 60px;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
 
 .column {
@@ -159,8 +164,6 @@ p {
 
 #demo-features .btn.btn-lg {
     background-color: rgb(0, 132, 253);
-    letter-spacing: 2px;
-    font-weight: bold;
 }
 
 .card-icon {
@@ -241,7 +244,31 @@ p {
     max-width: none;
 }
 
+/* Section Fetures */
 
+#features h2 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+.features-header {
+    color: rgb(151, 146, 228);
+}
+
+.features-header h1 {
+    font-size: 60px;
+}
+
+#features p {
+    line-height: 1.8em;
+    font-size: 22px;
+    color: rgb(129, 129, 129);
+}
+
+#features .btn {
+    font-size: 20px;
+}
 
 
 
