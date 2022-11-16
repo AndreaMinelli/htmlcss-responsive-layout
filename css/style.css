@@ -290,6 +290,7 @@ p {
     }
 }
 
+
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 900px;
@@ -328,6 +329,7 @@ p {
     }
 
     header .btn {
+        margin-bottom: 0;
         background-color: white;
         color: black;
     }
@@ -365,8 +367,33 @@ p {
 
     /* Section Planning*/
 
-    .planning .row {
+    #planning .row {
         flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+
+    #planning .column {
+        flex-basis: 40%;
+    }
+
+    #planning h3 {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    #planning h2 {
+        font-size: 35px;
+        margin: 100px 0 50px;
+    }
+
+    #planning p {
+        line-height: 1.5rem;
+    }
+
+    #planning .column>p {
+        font-size: 14px;
+        margin-bottom: 0;
     }
 
     /* Section Features */
