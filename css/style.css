@@ -24,6 +24,10 @@
     background-color: white;
 }
 
+.bg-violet {
+    background-color: rgb(151, 146, 228);
+}
+
 /* Generals */
 
 header {
@@ -74,6 +78,12 @@ main section:nth-child(even) {
     border-radius: 20px;
 }
 
+/* Section Testimonials */
+
+#testimionials .row {
+    display: flex;
+    flex-direction: column;
+}
 
 
 
@@ -99,10 +109,16 @@ main section:nth-child(even) {
 
     /* Section Planning */
 
-    .planning .row {
+    #planning .row {
         flex-direction: column;
     }
 
+    /* Section Testimonials */
+
+    #testimonials .column {
+        flex-basis: 100%;
+        padding: 10px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
