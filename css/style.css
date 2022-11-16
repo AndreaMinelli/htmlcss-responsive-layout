@@ -85,6 +85,12 @@ main section:nth-child(even) {
     flex-direction: column;
 }
 
+/* Section Get Started */
+
+#get-started {
+    text-align: center;
+}
+
 
 
 @media screen and (min-width: 768px) {
