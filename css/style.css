@@ -37,6 +37,10 @@
 
 /* Generals */
 
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
 header {
     background-color: rgb(0, 132, 253);
     color: white;
