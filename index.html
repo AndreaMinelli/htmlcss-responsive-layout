@@ -8,7 +8,8 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
     <!-- Stylesheet -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'
         integrity='sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=='
@@ -44,6 +45,7 @@
             <div class="container">
                 <div class="row">
                     <div class="column col-70">
+                        <!-- Prima card con immagine -->
                         <div class="card card-demo bg-lightblue">
                             <div class="get-demo">
                                 <h4>Get a demo application</h4>
@@ -51,7 +53,7 @@
                                     nobis, architecto ad
                                     dolore quod, facere totam quas recusandae blanditiis.
                                 </p>
-                                <a href="#" class="btn btn-lg mg-bottom-50">
+                                <a href="#" class="btn btn-lg">
                                     <i class="fa-brands fa-apple"></i>
                                     App Store
                                 </a>
@@ -61,6 +63,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Card senza immagini -->
                     <div class="column col-30">
                         <div class="card bg-lightblue">
                             <span class="card-icon">
@@ -115,11 +118,29 @@
         <section id="planning">
             <div class="container">
                 <div class="row">
-                    <div class="colum">
-                        immagine
+                    <div class="column">
+                        <picture>
+                            <img src="img/planning1.png" alt="Planning pics">
+                        </picture>
+                        <h2>Strategic Planning</h2>
+                        <p>
+                            Egestas dui id ornare arcu odio. In tellus integer feugiat scelerisque varius morbi enim
+                            nunc. Habitasse platea dictumst quisque sagittis. Interdum velit euismod in pellentesque
+                            massa placerat duis. Quis viverra nibh cras pulvinar mattis.
+                        </p>
                     </div>
-                    <div class="colum">
-                        <div class="card bg-white"></div>
+                    <div class="column">
+                        <div class="card bg-white">
+                            <picture>
+                                <img src="img/planning2.png" alt="Planning pics 2">
+                            </picture>
+                            <h3>App Development</h3>
+                            <p>
+                                <em>Develop an on-demand app for you delivery business to reach your targeted customers
+                                    whithout any interruption.</em>
+                            </p>
+                            <a href="#" class="btn"><i class="fa-solid fa-arrow-down"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
