@@ -20,6 +20,10 @@
     background-color: rgb(181, 221, 255);
 }
 
+.bg-white {
+    background-color: white;
+}
+
 /* Generals */
 
 header {
@@ -38,6 +42,10 @@ main {
 
 section {
     padding: 50px 0;
+}
+
+main section:nth-child(even) {
+    background-color: rgb(151, 146, 228);
 }
 
 /* Header */
@@ -73,7 +81,6 @@ section {
     .row {
         display: flex;
         flex-wrap: wrap;
-        align-content: flex-start;
         margin: 0 -10px;
     }
 
@@ -90,6 +97,12 @@ section {
         flex-basis: 70%;
     }
 
+    /* Section Planning */
+
+    .planning .row {
+        flex-direction: column;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -97,6 +110,7 @@ section {
         max-width: 900px;
     }
 
+    /* Header */
     .burger-link {
         display: none;
     }
@@ -104,4 +118,13 @@ section {
     .nav-link {
         display: block;
     }
+
+    /* Main */
+
+    /* Section Planning*/
+
+    .planning .row {
+        flex-direction: row;
+    }
+
 }
