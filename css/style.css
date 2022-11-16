@@ -16,6 +16,13 @@
     display: flex;
 }
 
+.btn {
+    background-color: rgb(151, 146, 228);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
 .bg-lightblue {
     background-color: rgb(181, 221, 255);
 }
@@ -60,6 +67,15 @@ footer {
     padding: 50px 0;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
 /* Header */
 
 .nav-bar {
@@ -72,6 +88,9 @@ footer {
 .nav-link {
     display: none;
 }
+
+
+
 
 /* Main */
 
@@ -157,12 +176,36 @@ footer {
     }
 
     /* Header */
+
+    header {
+        height: 50px;
+        font-size: 14px;
+    }
+
+    #header-logo {
+        width: 60px;
+    }
+
     .burger-link {
         display: none;
     }
 
     .nav-link {
         display: block;
+    }
+
+    header a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav-link li {
+        margin-left: 20px;
+    }
+
+    header .btn {
+        background-color: white;
+        color: black;
     }
 
     /* Main */
