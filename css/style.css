@@ -123,6 +123,8 @@ h4 {
 
 p {
     margin-bottom: 30px;
+    line-height: 1.5em;
+    font-size: 18px;
 }
 
 /* Header */
@@ -148,7 +150,6 @@ p {
 #demo-features p {
     color: rgb(90, 110, 127);
     font-weight: bold;
-    line-height: 1.5rem;
 }
 
 #demo-features .btn.btn-lg {
@@ -172,10 +173,6 @@ p {
 
 #planning {
     color: white;
-}
-
-#planning p {
-    line-height: 2rem;
 }
 
 #planning .card {
@@ -385,10 +382,6 @@ p {
     #planning h2 {
         font-size: 35px;
         margin: 100px 0 50px;
-    }
-
-    #planning p {
-        line-height: 1.5rem;
     }
 
     #planning .column>p {
