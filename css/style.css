@@ -49,6 +49,10 @@
     border: 1px solid white;
 }
 
+.font-purple {
+    color: rgb(151, 146, 228);
+}
+
 .bg-lightblue {
     background-color: rgb(181, 221, 255);
 }
@@ -113,7 +117,7 @@ ul {
 
 h2 {
     margin: 50px 0;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 h3 {
@@ -237,7 +241,7 @@ p {
     margin-bottom: 30px;
 }
 
-.circle-pics img {
+#testimonials .circle-pics img {
     height: 100%;
     position: relative;
     right: 25%;
@@ -249,14 +253,9 @@ p {
 #features h2 {
     color: white;
     text-align: center;
-    font-size: 45px;
 }
 
-.features-header {
-    color: rgb(151, 146, 228);
-}
-
-.features-header h1 {
+#features h1 {
     font-size: 60px;
 }
 
@@ -268,6 +267,30 @@ p {
 
 #features .btn {
     font-size: 20px;
+}
+
+/* Section About Us */
+
+#about-us p {
+    margin-bottom: 50px;
+    line-height: 3rem;
+    font-size: 20px;
+}
+
+#about-us .our-founder {
+    position: relative;
+}
+
+
+#about-us .fa-quote-left {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    font-size: 70px;
+}
+
+#about-us .fa-brands {
+    margin-right: 5px;
 }
 
 
