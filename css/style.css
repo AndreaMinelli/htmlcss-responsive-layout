@@ -110,7 +110,6 @@ footer {
     background-color: rgb(51, 51, 51);
     color: white;
     text-align: center;
-    height: 200px;
     padding: 50px 0;
 }
 
@@ -337,6 +336,12 @@ address {
 
 #get-started a {
     color: white;
+}
+
+/* Footer */
+
+footer a {
+    color: rgb(151, 146, 228);
 }
 
 
