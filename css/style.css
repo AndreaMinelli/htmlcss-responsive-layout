@@ -414,10 +414,6 @@ footer p {
         margin: 0 auto;
     }
 
-    #planning p {
-        font-size: 18px;
-    }
-
     /* Section Testimonials */
 
     #testimonials h2 {
@@ -507,6 +503,10 @@ footer p {
 
     h4 {
         font-size: 23px;
+    }
+
+    p {
+        font-size: 16px;
     }
 
     /* Header */
@@ -605,16 +605,8 @@ footer p {
         font-size: 40px;
     }
 
-    #testimonials h3 {
-        font-size: 19px;
-    }
-
     #testimonials h5 {
         font-size: 17px;
-    }
-
-    #testimonials p {
-        font-size: 16px;
     }
 
     /* Section Features */
@@ -651,10 +643,6 @@ footer p {
 
     #get-started h5 {
         font-size: 17px;
-    }
-
-    #get-started p {
-        font-size: 15px;
     }
 
     #get-started .btn.btn-xl {
