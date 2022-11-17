@@ -362,12 +362,12 @@ footer p {
     }
 
     .container-sm {
-        max-width: 500px;
+        max-width: 450px;
         margin: 0 auto;
     }
 
     .container-xs {
-        max-width: 450px;
+        max-width: 400px;
         margin: 0 auto;
     }
 
@@ -572,8 +572,6 @@ footer p {
         font-size: 60px;
     }
 
-
-
     /* Section Planning*/
 
     #planning .row {
@@ -652,7 +650,7 @@ footer p {
     }
 
     #get-started h5 {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     #get-started p {
@@ -665,6 +663,12 @@ footer p {
     }
 
     #get-started address {
+        font-size: 12px;
+    }
+
+    /* Footer */
+
+    footer p {
         font-size: 12px;
     }
 
