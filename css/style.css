@@ -357,7 +357,7 @@ address {
     }
 
     .container-sm {
-        max-width: 400px;
+        max-width: 500px;
         margin: 0 auto;
     }
 
@@ -485,6 +485,12 @@ address {
     #about-us .fa-quote-left {
         top: 2%;
         left: 70%;
+    }
+
+    /* Section Get Started */
+
+    #get-started h2 {
+        font-size: 50px;
     }
 }
 
