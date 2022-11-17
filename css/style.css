@@ -635,4 +635,32 @@ address {
         font-size: 30px;
     }
 
+    /* Section Get Started */
+
+    #get-started h1 {
+        margin-bottom: 30px;
+    }
+
+    #get-started h2 {
+        font-size: 40px;
+        margin: 20px 0 30px;
+    }
+
+    #get-started h5 {
+        font-size: 15px;
+    }
+
+    #get-started p {
+        font-size: 15px;
+    }
+
+    #get-started .btn.btn-xl {
+        font-size: 15px;
+        padding: 20px 50px;
+    }
+
+    #get-started address {
+        font-size: 12px;
+    }
+
 }
