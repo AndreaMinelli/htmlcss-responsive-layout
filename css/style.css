@@ -344,9 +344,9 @@ footer a {
     color: rgb(151, 146, 228);
 }
 
-
-
-
+footer p {
+    margin-bottom: 0;
+}
 
 @media screen and (min-width: 768px) {
     /* Generals */
@@ -367,7 +367,7 @@ footer a {
     }
 
     .container-xs {
-        max-width: 350px;
+        max-width: 450px;
         margin: 0 auto;
     }
 
