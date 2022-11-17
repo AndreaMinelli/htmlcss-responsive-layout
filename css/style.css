@@ -332,6 +332,10 @@ p {
         height: 100%;
     }
 
+    #demo-features .column:first-child {
+        flex-basis: calc(100% / 3 * 2);
+    }
+
     /* Section Planning */
 
     #planning .row {
