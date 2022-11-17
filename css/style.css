@@ -61,6 +61,14 @@
     color: rgb(151, 146, 228);
 }
 
+.font-white {
+    color: white;
+}
+
+.font-lightblue {
+    color: rgb(0, 132, 253);
+}
+
 .bg-lightblue {
     background-color: rgb(181, 221, 255);
 }
@@ -85,7 +93,6 @@ body {
 
 header {
     background-color: rgb(0, 132, 253);
-    color: white;
     height: 100px;
     position: fixed;
     top: 0;
@@ -108,7 +115,6 @@ main section:nth-child(even) {
 
 footer {
     background-color: rgb(51, 51, 51);
-    color: white;
     text-align: center;
     padding: 50px 0;
 }
@@ -172,10 +178,6 @@ address {
 /* Main */
 /* Section Demo Features */
 
-#demo-features h4 {
-    color: rgb(0, 132, 253);
-}
-
 #demo-features p {
     color: rgb(90, 110, 127);
     font-weight: bold;
@@ -186,7 +188,6 @@ address {
 }
 
 .card-icon {
-    color: rgb(0, 132, 253);
     font-size: 80px;
     display: inline-block;
     margin-bottom: 20px;
@@ -197,10 +198,6 @@ address {
 }
 
 /* Section planning */
-
-#planning {
-    color: white;
-}
 
 #planning .card {
     color: black;
@@ -230,10 +227,6 @@ address {
     flex-direction: column;
 }
 
-#testimonials h2 {
-    color: rgb(155, 150, 229);
-}
-
 #testimonials h3 {
     font-size: 30px;
 }
@@ -241,10 +234,6 @@ address {
 #testimonials p {
     font-size: 26px;
     line-height: 2.5rem;
-}
-
-#testimonials .card {
-    color: white;
 }
 
 .circle-pics {
@@ -266,7 +255,6 @@ address {
 /* Section Fetures */
 
 #features h2 {
-    color: white;
     text-align: center;
 }
 
@@ -308,13 +296,10 @@ address {
     margin-right: 5px;
 }
 
-
-
 /* Section Get Started */
 
 #get-started {
     text-align: center;
-    color: white;
 }
 
 #get-started h1 {
@@ -334,15 +319,7 @@ address {
     color: rgb(151, 146, 228);
 }
 
-#get-started a {
-    color: white;
-}
-
 /* Footer */
-
-footer a {
-    color: rgb(151, 146, 228);
-}
 
 footer p {
     margin-bottom: 0;
