@@ -65,8 +65,12 @@
     color: white;
 }
 
-.font-lightblue {
+.font-blue {
     color: rgb(0, 132, 253);
+}
+
+.bg-blue {
+    background-color: rgb(0, 132, 253);
 }
 
 .bg-lightblue {
@@ -181,10 +185,6 @@ address {
 #demo-features p {
     color: rgb(90, 110, 127);
     font-weight: bold;
-}
-
-#demo-features .btn.btn-lg {
-    background-color: rgb(0, 132, 253);
 }
 
 .card-icon {
@@ -312,11 +312,6 @@ address {
 
 #get-started p {
     font-size: 20px;
-}
-
-#get-started .btn.btn-xl {
-    background-color: white;
-    color: rgb(151, 146, 228);
 }
 
 /* Footer */
